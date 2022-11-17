@@ -9,7 +9,7 @@ const observer: IntersectionObserver = (() => {
                 const e = entry.isIntersecting ? "enterviewport" : "exitviewport";
                 entry.target.dispatchEvent(new CustomEvent(e));
             });
-        });
+        }, { rootMargin: "-10%" });
     }
 
     return instance;

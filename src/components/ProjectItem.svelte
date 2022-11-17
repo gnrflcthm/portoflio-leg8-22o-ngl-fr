@@ -3,14 +3,14 @@
     const {href, imageSrc, title, description} = project;
 </script>
 
-<a href={href} target="_blank" rel="noreferrer" class="block text-center rounded-md bg-light bg-opacity-10 backdrop-blur-sm overflow-hidden w-52 mx-2 relative flex-shrink-0">
-    <div class="object-scale-down mb-2">
+<a href={href} target="_blank" rel="noreferrer" class="block text-center bg-light bg-opacity-10 backdrop-blur-sm rounded-md overflow-hidden w-52 mx-2 flex-shrink-0 group relative">
+    <div class="object-scale-down mb-2 relative z-4">
         <img src={imageSrc} alt={title} />
     </div>
-    <h2 class="text-center text-light font-bold my-2">
+    <h2 class="text-center text-light font-bold my-2 relative z-4">
         {title}
     </h2>
-    <p class="my-2 text-light text-opacity-80">
+    <p class="my-2 text-light text-opacity-80 relative z-4">
         {description}
     </p>
 </a>
