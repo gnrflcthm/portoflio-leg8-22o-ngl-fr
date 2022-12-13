@@ -7,7 +7,7 @@
 </script>
 
 <section
-    class={`px-10 md:px-24 py-8 flex flex-col justify-start align-stretch space-y-4 ${fadeIn ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-700`}
+    class={`py-8 flex flex-col justify-start align-stretch space-y-4 text-center md:text-left ${fadeIn ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-700`}
     id="about"
     use:viewport
     on:enterviewport|once={() => fadeIn = true}
@@ -28,7 +28,7 @@
     </div>
     <div class="relative mt-4">
         <SectionHeader title="Technologies And Frameworks" size="md" />
-        <div class="flex py-4 overflow-auto flex-wrap justify-start">
+        <div class="flex py-4 overflow-auto flex-wrap justify-center md:justify-start">
             <TechTab name="React" bgColor="bg-[#5ED3F3]" />
             <TechTab name="NextJS" bgColor="bg-[#D2D7D9]" />
             <TechTab name="Firebase" bgColor="bg-[#FFCB2B]" />

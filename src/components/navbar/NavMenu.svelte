@@ -18,7 +18,7 @@
 </script>
 
 <div
-    class={`flex flex-col justify-start items-stretch text-light fixed h-screen w-screen md:w-2/3 top-0 ${
+    class={`flex flex-col justify-start items-stretch text-light fixed h-screen w-screen md:w-[18rem] top-0 ${
         $showNav ? "left-0" : "left-[-100vw]"
     } py-6 z-20 bg-light bg-opacity-5 backdrop-blur-[1rem] transition-all duration-700`}
 >

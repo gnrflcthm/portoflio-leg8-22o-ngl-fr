@@ -12,13 +12,13 @@
 >
     <div class="relative mb-2">
         <h1
-            class="text-light font-medium text-center text-xl absolute pb-0.5 pr-0.5 text-transparent pointer-events-none z-1"
+            class="text-light font-medium text-center text-2xl absolute pb-0.5 pr-0.5 text-transparent pointer-events-none z-1"
         >
             Hi, I am <span class="text-primary font-bold blur-sm uppercase">Gian Thiam</span
             >
             <p>and I make things work.</p>
         </h1>
-        <h1 class="text-light font-medium text-center text-xl relative z-2">
+        <h1 class="text-light font-medium text-center text-2xl relative z-2">
             Hi, I am <span class="text-primary font-bold uppercase">Gian Thiam</span>
             <p>and I make things work.</p>
         </h1>

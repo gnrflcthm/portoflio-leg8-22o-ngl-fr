@@ -16,5 +16,11 @@
         "imageSrc": "https://opengraph.githubassets.com/987dbbf657757e4033af526cf64e209ce32d6a4c784d49c49202e3a137eefc6e/gnrflcthm/MyBasics",
         "title": "MyBasics",
         "description": "A productivity mobile application to help its users in maintaining an organized workflow. Compared to other individual applications, this project will compile the basic essential applications and utilize them as its primary features for easier access of users."
+    },
+    {
+        "href": "https://github.com/gnrflcthm/site-ceap",
+        "imageSrc": "https://opengraph.githubassets.com/28895adf1d37032013222f8824ff694ea90588657cb50db057cc7a06dd5d68d1/gnrflcthm/site-ceap",
+        "title": "CEAP Online Resources For Education (CORE)",
+        "description": "A Document Management System for the Catholic Educational Association of the Philippines (CEAP)"
     }
 ]

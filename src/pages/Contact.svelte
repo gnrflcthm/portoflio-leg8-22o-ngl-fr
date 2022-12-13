@@ -9,7 +9,7 @@
 </script>
 
 <section
-    class={`px-10 md:px-24 py-8 flex flex-col space-y-4 ${
+    class={`py-8 flex flex-col space-y-4 ${
         fadeIn ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
     } transition-all duration-700
     `}
@@ -22,15 +22,15 @@
         <p class="text-light text-center md:text-start">
             You can reach me thru the following links:
         </p>
-        <div class="relative">
+        <div class="relative md:ml-4">
             <div
-                class="flex justify-evenly space-x-4 absolute blur-sm pointer-events-none w-full"
+                class="flex justify-evenly md:justify-start space-x-8 absolute blur-sm pointer-events-none w-full"
             >
                 <span class="text-primary w-8"><FaGithub /></span>
                 <span class="text-primary w-8"><FaLinkedin /></span>
                 <span class="text-primary w-8"><MdEmail /></span>
             </div>
-            <div class="flex justify-evenly space-x-4">
+            <div class="flex justify-evenly md:justify-start space-x-8">
                 <a
                     target="_blank"
                     rel="noreferrer"

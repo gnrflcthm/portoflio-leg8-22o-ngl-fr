@@ -10,7 +10,7 @@
 </script>
 
 <section
-    class={`px-10 md:px-24 py-8 ${
+    class={`py-8 ${
         fadeIn ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
     } transition-all duration-700
     `}
